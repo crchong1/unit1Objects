@@ -11,7 +11,7 @@ public class TurtleWorld
         turtle.penDown();
               
         
-        int degree = 50;
+        int degree = 49;
         int forward = 0;
         int color = 1;
         int max = 8;
@@ -53,7 +53,7 @@ public class TurtleWorld
                 };
             if (color == 8)
                 {
-                turtle.setPenColor(Color.GRAY);
+                turtle.setPenColor(Color.black);
                 };
             turtle.forward(forward);
             forward = forward + 1;
